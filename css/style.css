@@ -1,0 +1,138 @@
+/*estilos encabezado*/
+*{
+	color: #AAA;
+	font-family: Arial;
+}
+/*buscador*/
+input{
+	background: url("../img/iconos/search.png") no-repeat scroll 0 0 transparent;
+	border: 1px solid #BFBFBF;
+	color: #BFBFBF;
+	padding: 3% 3% 3% 15%;
+	width: 80%;
+	/*padding: 5px 5px 5px 25px;
+	width: 150px;*/
+}
+input.buscador{
+/*	background-position: 170px 5px;*/
+	background-position: 95%;
+}
+/*titulo encabezado*/
+.text-movie{
+	color: #E1DEDE;
+	font-size: .6em;
+	margin-right: 5%;
+	margin-top: 10%;
+}
+/*estilos seccion con fondo de imagen*/
+.fondo{
+	background: #FFF url("../img/banner.jpg");
+	background-repeat: no-repeat;
+	padding-bottom: 20%;
+	background-size: 100% 100%;
+}
+.icono{
+	position: absolute;
+	top: 65%;
+	left: 30%;
+	width: auto;
+	height: 10%;
+}
+.titulo{
+	font-size: 2em;
+	font-weight: 500;
+	color: #E6E5E5;
+	position: relative;
+	left: 25px;
+	padding: 3% 0;
+}
+.linea{
+	position: relative;
+	left: 25px;
+	border-top: 1px solid #EAEAEA; 
+	width: 80%;
+}
+
+.margen{
+	margin: 3% 0;
+/*botones*/
+}
+button.boton-verde{
+	border: 2px solid #1EAD07;
+	background-color: transparent;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	padding: 5%;
+	color: #1EAD07;
+	font-size: .8em;
+	cursor: pointer;
+}
+button.boton-amarillo{
+	background-color: #F1C80A;
+	border-radius: 5px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	padding: 2%;
+	color: #FFF;
+	font-size: .8em;
+	cursor: pointer;
+	border: 1px solid #F1C80A;
+}
+button.boton-naranja{
+	background-color: #B8922C;
+	border-radius: 5px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	padding: 2%;
+	color: #FFF;
+	font-size: .8em;
+	cursor: pointer;
+	border: 1px solid #B8922C;
+
+}
+.fondo-amarillo{
+	background-color: #F1C80A;
+	padding: 3%;
+}
+.cartelera{
+	width: 140px;
+	height: 180px;
+}
+.proximamente{
+	width: 150px;
+	height: 200px;
+}
+h3{
+	font-size: 2em;
+	color: #000;
+}
+h5{
+	color: #000;
+}
+h4{
+	font-size: 1.3em;
+}
+hr {
+	border-top: 1px solid #EAEAEA; 
+}
+iframe{
+	width: 100%;
+	height: 489px;
+}
+/*h3, p{
+	margin-left: 5%;
+}*/
+footer{
+	background-color: #E6E5E5;
+}
+span.txt-naranja{
+	color: #EBB115;
+	font-weight: bold;
+	font-size: .8em;
+}
+p.txt-cafe{
+	color: #B8922C;
+	font-weight: bold;
+	font-size: .8em;
+}
